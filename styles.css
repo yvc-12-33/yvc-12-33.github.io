@@ -1,0 +1,239 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 5px solid #ccc;
+    border-radius: 5px;
+    color: #007bff;
+    font-size: 18px; /* Increased font size */
+    font-weight: bold; /* Make the text bold */
+   
+
+    
+ 
+}
+input[type="text"]:focus {
+    border-color: #ccc;
+}
+
+
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: bold;
+   
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+
+p {
+    font-size: 18px;
+    margin-top: 20px;
+    word-wrap: break-word;
+}
+
+.nav {
+    overflow: hidden;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav h1 {
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 40px;
+  }
+
+  /* CSS to style the header, URL shortener app, and "How to Use" section */
+
+/* ... (Existing CSS code) ... */
+
+/* "How to Use" Section */
+.how-to-use {
+    margin-top: 40px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+}
+
+.how-to-use h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.how-to-use p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.use h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.use p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+/* CSS to style the header, URL shortener app, "How to Use" section, and footer */
+
+/* ... (Existing CSS code) ... */
+
+/* Footer */
+.footer {
+    background-color: #1d1d1d;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #888;
+}
+
+
+
+/* CSS to style the header, URL shortener app, "How to Use" section, and footer */
+
+/* ... (Existing CSS code) ... */
+
+/* Unordered List (ul) */
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+
+
+/* CSS to style the header, URL shortener app, "How to Use" section, and footer */
+
+/* ... (Existing CSS code) ... */
+
+/* Section Separation */
+.section-separator {
+    border-top: 1px solid #ccc;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* Output Short URL Text */
+#shortURLOutput {
+    font-size: 18px;
+    color: #048600;
+    margin-top: 20px;
+    word-wrap: break-word;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+/* Mobile-friendly Styles */
+@media screen and (max-width: 768px) {
+    .nav {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .container {
+        margin: 30px auto;
+        padding: 10px;
+    }
+
+    .how-to-use p {
+        font-size: 16px;
+        padding-left: 0px;
+    padding-right: 0px;
+    }
+
+    .how-to-use h2 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .nav {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .container {
+        margin: 30px auto;
+        padding: 10px;
+    }
+
+    .how-to-use p {
+        font-size: 16px;
+        padding-left: 0px;
+    padding-right: 0px;
+    }
+
+    .how-to-use h2 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+}
+/* ... (Media queries and other styles) ... */
+
+
+
+
